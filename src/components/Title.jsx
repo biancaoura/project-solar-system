@@ -15,7 +15,7 @@ Title.propTypes = {
 };
 
 Title.defaultProps = {
-  headline: 'PLANETAS',
+  headline: 'Título da seção',
 };
 
 export default Title;
