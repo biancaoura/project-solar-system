@@ -5,7 +5,7 @@ class Title extends Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>{headline}</h2>
+      <h2 className="title">{headline}</h2>
     );
   }
 }
@@ -15,7 +15,7 @@ Title.propTypes = {
 };
 
 Title.defaultProps = {
-  headline: 'Planetas',
+  headline: 'PLANETAS',
 };
 
 export default Title;
