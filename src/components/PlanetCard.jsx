@@ -21,7 +21,7 @@ class PlanetCard extends Component {
 PlanetCard.propTypes = {
   planetName: PropTypes.string,
   planetImage: PropTypes.string,
-  width: PropTypes.string,
+  width: PropTypes.number,
 };
 
 PlanetCard.defaultProps = {
