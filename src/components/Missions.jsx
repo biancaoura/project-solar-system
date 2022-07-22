@@ -18,7 +18,9 @@ class Missions extends Component {
     return (
       <div data-testid="missions">
         <Title headline="MISSÕES" />
-        {renderMissions}
+        <div className="missions-container">
+          {renderMissions}
+        </div>
       </div>
     );
   }
