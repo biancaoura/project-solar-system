@@ -15,7 +15,7 @@ export default class SolarSystem extends Component {
     ));
 
     return (
-      <div data-testid="solar-system">
+      <div>
         <Title headline="PLANETAS" />
         <div className="card-container">
           {renderPlanets}
