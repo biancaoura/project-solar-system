@@ -3,7 +3,7 @@ import Title from './Title';
 import MissionCard from './MissionCard';
 import missions from '../data/missions';
 
-class Missions extends Component {
+export default class Missions extends Component {
   render() {
     const renderMissions = missions.map((mission, index) => (
       <MissionCard
@@ -16,7 +16,7 @@ class Missions extends Component {
     ));
 
     return (
-      <div data-testid="missions">
+      <div>
         <Title headline="MISSÕES" />
         <div className="missions-container">
           {renderMissions}
@@ -26,4 +26,3 @@ class Missions extends Component {
   }
 }
 
-export default Missions;
