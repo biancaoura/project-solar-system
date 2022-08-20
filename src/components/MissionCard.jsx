@@ -17,8 +17,8 @@ export default class MissionCard extends Component {
 }
 
 MissionCard.propTypes = {
-  name: string,
-  year: string,
-  country: string,
-  destination: string,
+  name: string.isRequired,
+  year: string.isRequired,
+  country: string.isRequired,
+  destination: string.isRequired,
 };

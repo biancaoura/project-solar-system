@@ -15,4 +15,3 @@ export default class Particle extends React.Component {
     return <Particles options={ options } init={ this.customInit } />;
   }
 }
-

@@ -23,4 +23,3 @@ PlanetCard.propTypes = {
   planetImage: string.isRequired,
   width: number.isRequired,
 };
-
