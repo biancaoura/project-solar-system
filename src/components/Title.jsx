@@ -11,10 +11,7 @@ export default class Title extends Component {
 }
 
 Title.propTypes = {
-  headline: string,
+  headline: string.isRequired,
 };
 
-Title.defaultProps = {
-  headline: 'Título da seção',
-};
 
