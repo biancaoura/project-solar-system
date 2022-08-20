@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import { string } from 'prop-types';
 
-class Title extends Component {
+export default class Title extends Component {
   render() {
     const { headline } = this.props;
     return (
@@ -11,11 +11,10 @@ class Title extends Component {
 }
 
 Title.propTypes = {
-  headline: PropTypes.string,
+  headline: string,
 };
 
 Title.defaultProps = {
   headline: 'Título da seção',
 };
 
-export default Title;
