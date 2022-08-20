@@ -11,6 +11,8 @@
 
 - Header, Title, MissionCard, Missions, PlanetCard, SolarSystem
 
+[Check it out!](https://biancaoura.github.io/project-solar-system/)
+
 > Project developed with React
 
 > images and data files provided by Trybe
