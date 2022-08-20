@@ -3,7 +3,7 @@ import PlanetCard from './PlanetCard';
 import Title from './Title';
 import planets from '../data/planets';
 
-class SolarSystem extends Component {
+export default class SolarSystem extends Component {
   render() {
     const renderPlanets = planets.map((planet, index) => (
       <PlanetCard
@@ -25,4 +25,3 @@ class SolarSystem extends Component {
   }
 }
 
-export default SolarSystem;

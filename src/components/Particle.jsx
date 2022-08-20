@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-tsparticles';
 import { loadStarsPreset } from 'tsparticles-preset-stars';
 
-class Particle extends React.Component {
+export default class Particle extends React.Component {
   async customInit(engine) {
     await loadStarsPreset(engine);
   }
@@ -16,4 +16,3 @@ class Particle extends React.Component {
   }
 }
 
-export default Particle;
