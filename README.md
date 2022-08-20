@@ -11,7 +11,11 @@
 
 - Header, Title, MissionCard, Missions, PlanetCard, SolarSystem
 
+#### First project using React
+
 [Check it out!](https://biancaoura.github.io/project-solar-system/)
+
+##
 
 > Project developed with React
 
