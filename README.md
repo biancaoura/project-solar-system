@@ -1,4 +1,4 @@
-# Solar System Project :rocket:
+# Solar System Project
 
 ## Goals
 
@@ -11,6 +11,6 @@
 
 - Header, Title, MissionCard, Missions, PlanetCard, SolarSystem
 
-> Project developed using React
+> Project developed with React
 
 > images and data files provided by Trybe
